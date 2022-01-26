@@ -29,6 +29,7 @@ Experiment,Sample3,s3://mybucket/that_is_s3_R1.fastq.gz,
 Experiment,Sample4,s3://mybucket/that_be_s4_R1.fastq.gz,
 ```
 4. The compare CSV file must have the following format.
-```,read_1,read_2
+```
+condition1,condition2
 Control,Experiment
 ```
