@@ -6,6 +6,14 @@ With supports and reviews by PI teams
 
 ## Quick start
 
+First, build docker:
+
+```bash
+docker build -t <docker image name> . --no-cache
+```
+
+Then, run nextflow command line:
+
 ```bash
 nextflow run QuangOng-RNAseq/ \
   	--reads "<fastq data dir>" \
@@ -15,7 +23,8 @@ nextflow run QuangOng-RNAseq/ \
   	--gtf "<gtf dir>" \
 	--design "<CSV file dir>" \
   	--compare "<CSV file dir>" \
-	--outdir "<output dir>"
+	--outdir "<output dir>" \
+	-with-docker <docker image name>
 ```
 
 1. The option `--reads` is required for getting raw data as input.
