@@ -18,3 +18,17 @@ nextflow run QuangOng-RNAseq/ \
 	--outdir "<output dir>"
 ```
 
+1. The option `--reads` is required for getting raw data as input.
+2. The options `--genome`, `--index`, `--bed12`, and `--gtf` are required for running pipeline.
+3. The design CSV file must have the following format.
+```
+group,sample,read_1,read_2
+Control,Sample1,s3://mybucket/this_is_s1_R1.fastq.gz,s3://mybucket/this_is_s1_R2.fastq.gz
+Control,Sample2,s3://mybucket/this_is_s2_R1.fastq.gz,s3://mybucket/this_is_s2_R2.fastq.gz
+Experiment,Sample3,s3://mybucket/that_is_s3_R1.fastq.gz,
+Experiment,Sample4,s3://mybucket/that_be_s4_R1.fastq.gz,
+```
+4. The compare CSV file must have the following format.
+```,read_1,read_2
+Control,Experiment
+```
