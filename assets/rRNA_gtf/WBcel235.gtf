@@ -1,0 +1,12 @@
+I       ce11_rmsk       exon    15060299        15061150        7971.000000     +       .       gene_id "LSU-rRNA_Cel"; transcript_id "LSU-rRNA_Cel"; gene_biotype "rRNA";
+I       ce11_rmsk       gene    15060299        15061150        7971.000000     +       .       gene_id "LSU-rRNA_Cel"; transcript_id "LSU-rRNA_Cel"; gene_biotype "rRNA";
+I       ce11_rmsk       exon    15062084        15063834        15435.000000    +       .       gene_id "SSU-rRNA_Cel"; transcript_id "SSU-rRNA_Cel"; gene_biotype "rRNA";
+I       ce11_rmsk       gene    15062084        15063834        15435.000000    +       .       gene_id "SSU-rRNA_Cel"; transcript_id "SSU-rRNA_Cel"; gene_biotype "rRNA";
+I       ce11_rmsk       exon    15064838        15068346        32767.000000    +       .       gene_id "LSU-rRNA_Cel"; transcript_id "LSU-rRNA_Cel_dup1"; gene_biotype "rRNA";
+I       ce11_rmsk       gene    15064838        15068346        32767.000000    +       .       gene_id "LSU-rRNA_Cel"; transcript_id "LSU-rRNA_Cel_dup1"; gene_biotype "rRNA";
+I       ce11_rmsk       exon    15069281        15071031        15435.000000    +       .       gene_id "SSU-rRNA_Cel"; transcript_id "SSU-rRNA_Cel_dup1"; gene_biotype "rRNA";
+I       ce11_rmsk       gene    15069281        15071031        15435.000000    +       .       gene_id "SSU-rRNA_Cel"; transcript_id "SSU-rRNA_Cel_dup1"; gene_biotype "rRNA";
+V       ce11_rmsk       exon    5496547 5496603 230.000000      +       .       gene_id "SSU-rRNA_Dme"; transcript_id "SSU-rRNA_Dme"; gene_biotype "rRNA";
+V       ce11_rmsk       gene    5496547 5496603 230.000000      +       .       gene_id "SSU-rRNA_Dme"; transcript_id "SSU-rRNA_Dme"; gene_biotype "rRNA";
+V       ce11_rmsk       exon    11938611        11938683        547.000000      -       .       gene_id "LSU-rRNA_Cel"; transcript_id "LSU-rRNA_Cel"; gene_biotype "rRNA";
+V       ce11_rmsk       gene    11938611        11938683        547.000000      -       .       gene_id "LSU-rRNA_Cel"; transcript_id "LSU-rRNA_Cel"; gene_biotype "rRNA";
